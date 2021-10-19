@@ -1,6 +1,8 @@
 #include <Wire.h>
-#include <Adafruit_MAX31865.h> //from MAX31865 library from Adafruit
-#include <HIH61xx.h>
+
+//Make sure to install these libraries using Tools->Manage Libraries
+#include <Adafruit_MAX31865.h> // MAX31865 library from Adafruit
+#include <HIH61xx.h>           
 #include <AsyncDelay.h>
 
 // CRC calculation as per:
